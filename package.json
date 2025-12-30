@@ -1,0 +1,40 @@
+{
+  "name": "orbit-theme",
+  "displayName": "Orbit Theme",
+  "publisher": "monoooki",
+  "version": "1.0.1",
+  "description": "Bright, structure-first dark theme for quick code scans.",
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#1E1F22",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "orbit"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/monoooki/vscode-orbit-theme#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monoooki/vscode-orbit-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/monoooki/vscode-orbit-theme/issues"
+  },
+  "qna": false,
+  "contributes": {
+    "themes": [
+      {
+        "label": "Orbit",
+        "uiTheme": "vs-dark",
+        "path": "./themes/orbit-color-theme.json"
+      }
+    ]
+  }
+}
